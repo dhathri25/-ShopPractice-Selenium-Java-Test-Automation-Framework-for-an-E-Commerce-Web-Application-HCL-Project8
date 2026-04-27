@@ -1,0 +1,53 @@
+<suite name="E-Commerce Suite" parallel="false">
+
+   
+    <listeners>
+        <listener class-name="com.srm.utils.ListenerClass"/>
+    </listeners>
+    
+    
+    <test name="Register Tests">
+
+        <classes>
+            <class name="com.srm.tests.RegisterTest"/>
+        </classes>
+
+    </test>
+ 
+    <test name="Login Tests">
+        <classes>
+            <class name="com.srm.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Product Tests">
+        <classes>
+            <class name="com.srm.tests.ProductTest"/>
+        </classes>
+    </test>
+   
+    <test name="Cart Tests">
+        <classes>
+            <class name="com.srm.tests.CartTest"/>
+        </classes>
+    </test>
+      
+    <test name="Order Tests">
+        <classes>
+            <class name="com.srm.tests.OrderTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Tests">
+        <classes>
+            <class name="com.srm.tests.CheckoutTest"/>
+        </classes>
+    </test>
+    
+     <test name="Logout Tests">
+        <classes>
+            <class name="com.srm.tests.LogoutTest"/>
+        </classes>
+    </test>
+
+</suite>
